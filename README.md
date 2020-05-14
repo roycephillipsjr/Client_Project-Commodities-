@@ -5,7 +5,7 @@ Client Project to find available commodities during COVID-19
 
 
 ## Executive Summary
-Looking through this notebook you can see all the information you need to find on how our team worked to find available commodaties during the COVID-19 pandemic. The data was created by pulling the information from Twitters developer's API(https://developer.twitter.com/en/docs). The dataset was then created from those tweets that were pulled and then cleaned, parsed, and fit into a DBSCAN model. The geo coordinates that were found were then put on Google maps using a Google map API(link).
+Looking through this notebook you can see all the information you need to find on how our team worked to find available commodaties during the COVID-19 pandemic. The data was created by pulling the information from [Twitters developer's API](https://developer.twitter.com/en/docs). The dataset was then created from those tweets that were pulled and then cleaned, parsed, and fit into a DBSCAN model. The geo coordinates that were found were then put on Google maps using a [Google map API](link).
 
 
 #### Below you can see links to the jupyter notebooks, data, and references:
