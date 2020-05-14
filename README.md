@@ -1,12 +1,11 @@
-![](imgs/CoronaVirusHeader-Final-3-1536x647.jpg)
-[Photo Source](https://www.furman.edu/covid-19/)
-
-# Client Project Finding Available Commodities
-Client Project to find available commodities during COVID-19
+# Client Project Finding Available Commodities During COVID-19
 
 ## Team Members 
 [Jeong Huh](https://www.linkedin.com/in/jeong-huh/)
 <br>[Royce Phillips Jr](https://www.linkedin.com/in/roycephillipsjr/)
+
+![](imgs/CoronaVirusHeader-Final-3-1536x647.jpg)
+[Photo Source](https://www.furman.edu/covid-19/)
 
 ## Problem Statement
 
