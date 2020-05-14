@@ -10,19 +10,17 @@ Looking through this notebook you can see all the information you need to find o
 
 #### Below you can see links to the jupyter notebooks, data, and references:
 
-## Contents:
+## Jupyter Notebooks:
 
-- [Data Gathering](01_Data_Gathering.ipynb)
-- [Data Cleaning and EDA](02_Data_Cleaning_EDA.ipynb)
-- [Further Cleaning](03_Further_Cleaning.ipynb)
-- [Modeling](04_Modeling.ipynb)
-- [More Data Visualization](05_Visualizations.ipynb)
-- [Project 3 Reddit Classification PPT](Project_3_Reddit_Classification.pdf)
+- [Data Gathering](00_Gathering_tweets.ipynb)
+- [Gathering Coordinates](01_Gathering_coordinates.ipynb)
+- [Cleaning tweets](02_Cleaning_tweets.ipynb)
+- [Preprocessing and Modeling](03_Preprocessing_Modeling.ipynb)
+
 
 ## Data:
-- [Original Reddit Dataset](Datasets/big_reddit_list.csv)
-- [Reddit Dataset with Feature Engineered columns](Datasets/reddit_list_with_feature_engineering.csv)
-- [Reddit Dataset with added sentiment analysis](Datasets/reddit_cleaned_title_and_selftext.csv)
+- [Original Tweets](datasets/all_commodities_tweets.csv)
+- [Origian Tweets with Cleaned Tweets](Datasets/cleaned_tweets.csv)
 
 
 ##  References
