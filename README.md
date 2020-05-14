@@ -1,4 +1,4 @@
-
+![](imgs/CoronaVirusHeader-Final-3-1536x647.jpg)
 [Photo Source](https://www.furman.edu/covid-19/)
 
 # Client Project Finding Available Commodities
