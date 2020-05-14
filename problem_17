@@ -1,0 +1,11 @@
+Problem 17: Mapping Available Commodities During the COVID-19 Pandemic
+
+Problem Statement: On a daily basis, news and social media highlight the shortage of certain commodities in local stores. There are limited ways for stores to indicate the availability of commodities that may be in demand (paper products, cleaning supplies, hand soap and sanitizer, etc). People, and stores, post on social media when they have availability. This project would be to create a geospatial layer that pulls in real-time social media posts to highlight where items are available in a given geographic location.
+
+Proposed Deliverables:
+
+A short write-up describing the project.
+A geospatial output that shows the location of social media posts and available commodities, with a time stamp on those posts.
+Descriptions of input data:
+
+Open source code to automatically identify a commodity and its availability at a given location.
