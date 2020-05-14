@@ -5,17 +5,10 @@ Client Project to find available commodities during COVID-19
 
 
 ## Executive Summary
-Looking through this notebook you can see all the information you need to find on how I came to my conclusion. The data was created by pulling the information from Pushshift's Reddit API(https://github.com/pushshift/api). The dataset was then created from my initial pull and then I cleaned and parsed the data to fit it into a model.
+Looking through this notebook you can see all the information you need to find on how our team worked to find available commodaties during the COVID-19 pandemic. The data was created by pulling the information from Twitters developer's API(https://developer.twitter.com/en/docs). The dataset was then created from those tweets that were pulled and then cleaned, parsed, and fit into a DBSCAN model. The geo coordinates that were found were then put on Google maps using a Google map API(link).
 
 
-Below you can see all the resources and the work that was done on the data. It includes:
-1. 5 jupyter notebooks
-2. The data sources I created and the cleaned csv.
-3. The Pushshift API I used
-4. The subreddits I referenced
-5. A data dictionary
-6. The procedure and methodology
-7. The conclusion
+#### Below you can see links to the jupyter notebooks, data, and references:
 
 ## Contents:
 
@@ -26,7 +19,7 @@ Below you can see all the resources and the work that was done on the data. It i
 - [More Data Visualization](05_Visualizations.ipynb)
 - [Project 3 Reddit Classification PPT](Project_3_Reddit_Classification.pdf)
 
-## Data sources:
+## Data:
 - [Original Reddit Dataset](Datasets/big_reddit_list.csv)
 - [Reddit Dataset with Feature Engineered columns](Datasets/reddit_list_with_feature_engineering.csv)
 - [Reddit Dataset with added sentiment analysis](Datasets/reddit_cleaned_title_and_selftext.csv)
