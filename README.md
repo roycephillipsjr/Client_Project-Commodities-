@@ -1,6 +1,10 @@
 # Client_Project-Commodities-
 Client Project to find available commodities during COVID-19
 
+## Team Members 
+[Jeong Huh](https://www.linkedin.com/in/jeong-huh/)
+[Royce Phillips Jr](https://www.linkedin.com/in/roycephillipsjr/)
+
 ## Problem Statement
 
 
