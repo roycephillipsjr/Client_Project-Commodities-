@@ -1,4 +1,6 @@
-# Client_Project-Commodities-
+[Photo](https://www.furman.edu/covid-19/)
+
+# Client Project Finding Available Commodities
 Client Project to find available commodities during COVID-19
 
 ## Team Members 
