@@ -29,12 +29,12 @@ Looking through this notebook you can see all the information you need to find o
 
 
 ##  References
-- [Twitter](https://twitter.com/)
-- [Twitter API](https://developer.twitter.com/en/docs)
-- [Twitter API Tutorial](http://socialmedia-class.org/twittertutorial.html)
-- [Source Code for gathering tweets](https://www.youtube.com/watch?v=WX0MDddgpA4&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1&index=3)
-- [Tweepy Documentation](http://docs.tweepy.org/en/v3.8.0/index.html)
-- [Google Maps API](https://developers.google.com/maps/documentation)
+- [Twitter](https://twitter.com/) - Source where we grabbed all our data
+- [Twitter API](https://developer.twitter.com/en/docs) - Tool we used to grab all the tweets
+- [Twitter API Tutorial](http://socialmedia-class.org/twittertutorial.html) - A guide on how to use Twitter API
+- [Source Code for gathering tweets](https://www.youtube.com/watch?v=WX0MDddgpA4&list=PL5tcWHG-UPH2zBfOz40HSzcGUPAVOOnu1&index=3) - YouTube video on further uses of Twitter API
+- [Tweepy Documentation](http://docs.tweepy.org/en/v3.8.0/index.html) - Tweepy documentation on how to use this library
+- [Google Maps API](https://developers.google.com/maps/documentation) - API used to pinpoint locations on a map
 
 
 
