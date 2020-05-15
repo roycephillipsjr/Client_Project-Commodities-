@@ -30,10 +30,10 @@ Looking through this notebook you can see all the information you need to find o
 
 ## Jupyter Notebooks:
 
-- [Data Gathering](00_Gathering_tweets.ipynb)
-- [Gathering Coordinates](01_Gathering_coordinates.ipynb)
-- [Cleaning tweets](02_Cleaning_tweets.ipynb)
-- [Preprocessing and Modeling](03_Preprocessing_Modeling.ipynb)
+1. [Data Gathering](00_Gathering_tweets.ipynb)
+2. [Gathering Coordinates](01_Gathering_coordinates.ipynb)
+3. [Cleaning tweets](02_Cleaning_tweets.ipynb)
+4. [Preprocessing and Modeling](03_Preprocessing_Modeling.ipynb)
 
 
 ## Data:
