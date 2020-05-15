@@ -1,0 +1,125 @@
+// This code is from Google Maps Help page
+// Inserted the GPS coordiantes
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>COVID19 Commodity</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+      // The following example creates complex markers to indicate beaches near
+      // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
+      // to the base of the flagpole.
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 5,
+          center: {lat: 39.8283, lng: -90.5795}
+        });
+
+        setMarkers(map);
+      }
+
+      // Data for the markers consisting of a name, a LatLng and a zIndex for the
+      // order in which these markers should display on top of each other.
+      var beaches = [
+        ['clorox wipes', 44.96629517, -93.07325315, 1],
+    ['lysol & wipes', 43.5154, -79.62653, 2],
+    ['masks', 32.8695093, -96.6797152, 3],
+    ['sanitizer', 32.8695093, -96.6797152, 4],
+    ['IPA, H2O2, gloves', 35.91572, -79.06188, 5],
+    ['sanitizer', 46.50105096, -84.34907913, 6],
+    ['sanitizer', 43.79039901, -80.14427771, 7],
+    ['sanitizer', 36.140987, -86.772124, 8],
+    ['sanitizer', 42.1296, -87.8311, 9],
+    ['clorox', 35.0511565, -85.6600176, 10],
+    ['clorox & lysol', 34.0207895, -118.4119065, 11],
+    ['lysol', 43.629311, -79.2725695, 12],
+    ['lysol & clorox', 43.555244, -79.616073, 13],
+    ['toilet paper', 36.20000805, -86.791549, 14],
+    ['toilet paper', 36.20000805, -86.791549, 15],
+    ['toilet paper', 34.19999172983301, -118.37995234955565, 16],
+    ['sanitizer', 40.5833894, -75.5588775, 17],
+    ['sanitizer', 26.275662, -80.096419, 18],
+    ['sanitizer', 45.424871, -122.79185375, 19],
+    ['sanitizer', 35.2264115, -81.0378265, 20],
+    ['sanitizer & mask', 33.7671944, -84.433106, 21],
+    ['sanitizer', 34.22887575, -118.235241, 22],
+    ['sanitizer', 40.787501, -74.1271651, 23],
+    ['sanitizer', 45.53640175, -122.63090815, 24],
+    ['sanitizer', 42.24571305, -83.6018025, 25],
+    ['sanitizer', 45.53640175, -122.63090815, 26],
+    ['toilet paper', 47.2315974, -123.1239325, 27],
+    ['toilet paper', 42.308346, 0.3142995, 28],
+    ['toilet paper', 29.8384948, -95.4464865, 29],
+    ['toilet paper', 35.1170026, -106.6327181, 30],
+    ['toilet paper', 33.75133608416934, -84.32186124438131, 31],
+    ['toilet paper', 39.1018362, -77.5530482, 32],
+    ['toilet paper', 41.144642, -73.3425245, 33],
+    ['toilet paper', 30.199115109821854, -81.82494668408846, 34],
+    ['toilet paper', 25.6719858, -80.34711985, 35]
+
+      ];
+
+      function setMarkers(map) {
+        // Adds markers to the map.
+
+        // Marker sizes are expressed as a Size of X,Y where the origin of the image
+        // (0,0) is located in the top left of the image.
+
+        // Origins, anchor positions and coordinates of the marker increase in the X
+        // direction to the right and in the Y direction down.
+        var image = {
+          url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+          // This marker is 20 pixels wide by 32 pixels high.
+          size: new google.maps.Size(20, 32),
+          // The origin for this image is (0, 0).
+          origin: new google.maps.Point(0, 0),
+          // The anchor for this image is the base of the flagpole at (0, 32).
+          anchor: new google.maps.Point(0, 32)
+        };
+        // Shapes define the clickable region of the icon. The type defines an HTML
+        // <area> element 'poly' which traces out a polygon as a series of X,Y points.
+        // The final coordinate closes the poly by connecting to the first coordinate.
+        var shape = {
+          coords: [1, 1, 1, 20, 18, 20, 18, 1],
+          type: 'poly'
+        };
+
+
+        for (var i = 0; i < beaches.length; i++) {
+          var beach = beaches[i];
+          var marker = new google.maps.Marker({
+            position: {lat: beach[1], lng: beach[2]},
+            map: map,
+            icon: image,
+            shape: shape,
+            title: beach[0],
+            zIndex: beach[3]
+          });
+        }
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=google_api_key_here&callback=initMap">
+    </script>
+  </body>
+</html>
