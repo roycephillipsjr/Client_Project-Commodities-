@@ -25,6 +25,7 @@ Looking through this notebook you can see all the information you need to find o
 - Regex
 - NLTK Stopwords
 - Scikit-Learn CountVectorizer, TfidfVectorizer, DBSCAN, Silhouette Score, StandardScaler
+- GMAP
 
 #### Below you can see links to the jupyter notebooks, data, and references:
 
