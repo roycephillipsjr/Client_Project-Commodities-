@@ -31,10 +31,12 @@ Looking through this notebook you can see all the information you need to find o
 
 ## Jupyter Notebooks:
 
-1. [Data Gathering](00_Gathering_tweets.ipynb)
-2. [Gathering Coordinates](01_Gathering_coordinates.ipynb)
-3. [Cleaning tweets](02_Cleaning_tweets.ipynb)
-4. [Preprocessing and Modeling](03_Preprocessing_Modeling.ipynb)
+1. [Data Gathering](Code/00_Gathering_tweets.ipynb)
+2. [Gathering Coordinates](Code/01_Gathering_coordinates.ipynb)
+3. [Cleaning tweets](Code/02_Cleaning_tweets.ipynb)
+4. [Preprocessing and Modeling](Code/03_Preprocessing_Modeling.ipynb)
+5. [All Commodities](Code/04_All_commodities.ipynb)
+6. [GMAP Location](Code/05_gmap-location.ipynb)
 
 
 ## Data:
