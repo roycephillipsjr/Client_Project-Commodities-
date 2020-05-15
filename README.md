@@ -81,4 +81,5 @@ The fact that a human had to go through the tweets and read the texts to filter 
 
 
 For more in depth knowledge on our process check this [document](Presentation_Files/Executive_Summary_COVID.pdf)
+For the [powerpoint presentation](Presentation_Files/PPT_COVID19-Commodity-Map.pdf)
 ![](imgs/map-commodity.png)
