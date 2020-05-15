@@ -6,14 +6,25 @@
 [Jeong Huh](https://www.linkedin.com/in/jeong-huh/)
 <br>[Royce Phillips Jr](https://www.linkedin.com/in/roycephillipsjr/)
 
-## Problem Statement
+## Motivation
 COVID-19 is the worst pandemic in the past 100 years. It has made millions of people sick and as of May of 2020, more than 300,000 died from COVID-19 related symptoms. It has brought numerous life-changing experiences, such as stay-at-home orders, shortage of hospital beds and medical supplies and so forth. However, one of the issues that everyone around the world is facing is shortage of commodities such as certain food, hygiene and personal protection products such as sanitizer, disinfectant wipes, mask and isopropyl alcohol. A lot of stockpiling occurred with panic purchasing and it has become difficult to locate and acquire certain items. Based on these facts, our team wanted to see if it is possible to locate these commodities with information available to everyone online and map essential items so it can help people get access to them as easy as possible.
 
 To see the problem statement we chose. [Problem 17](problem_17.txt)
 
-## Executive Summary
-Looking through this notebook you can see all the information you need to find on how our team worked to find available commodaties during the COVID-19 pandemic. The data was created by pulling the information from [Twitter's developer API](https://developer.twitter.com/en/docs). The dataset was then created from those tweets that were pulled and then cleaned, parsed, and fit into a DBSCAN model. The geo coordinates that were found were then put on Google maps using a [Google map API](https://developers.google.com/maps/documentation).
+## Quick Summary
+Looking through this notebook you can see all the information you need to find on how our team worked to find available commodaties during the COVID-19 pandemic. The data was created by pulling the information from [Twitter's developer API](https://developer.twitter.com/en/docs). The dataset was then created from those tweets that were pulled and then cleaned and parsed. The tweets were cleaned with Beautiful Soup and Regex. Then the words were CountVectorized and fit into a DBSCAN model. The geo coordinates that were found were then put on Google maps using a [Google map API](https://developers.google.com/maps/documentation).
 
+## Software Requirements
+- JSON
+- Tweepy
+- Pandas
+- Numpy
+- Datetime
+- Time
+- Beautiful Soup
+- Regex
+- NLTK Stopwords
+- Scikit-Learn CountVectorizer, TfidfVectorizer, DBSCAN, Silhouette Score, StandardScaler
 
 #### Below you can see links to the jupyter notebooks, data, and references:
 
@@ -54,9 +65,6 @@ Feature|    Type|    Dataset|Data Retrieved From|Description|
 **source**|object|cleaned_tweets|Twitter API|the source where tweet came from|
 **clean_tweets**|object|cleaned_tweets|Twitter API|cleaned tweets, removed characters|
 
+## Conclusion
 
-
-## Procedure/Methodology
-
-
-# Conclusion
+For more in depth knowledge on our process check this [document](doc file)
