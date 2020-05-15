@@ -68,3 +68,4 @@ Feature|    Type|    Dataset|Data Retrieved From|Description|
 ## Conclusion
 
 For more in depth knowledge on our process check this [document](doc file)
+![](map-commodity.png)
