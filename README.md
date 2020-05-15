@@ -68,7 +68,17 @@ Feature|    Type|    Dataset|Data Retrieved From|Description|
 **source**|object|cleaned_tweets|Twitter API|the source where tweet came from|
 **clean_tweets**|object|cleaned_tweets|Twitter API|cleaned tweets, removed characters|
 
-## Conclusion
+## Summary
 
-For more in depth knowledge on our process check this [document](doc file)
+In the past few years, there have been several emergencies in the United States, such as massive hurricanes, wildfires and COVID-19 pandemic. In those situations, critical resources can make a real difference in one's life and also the location of those resources. We have used twitter as the main information gathering tool to locate available commodities during CVOID-19 pandemic and Google Map as the main delivery platform to share the information. We successfully opened a Twitter Developers account and generated an API key to download and collect thousands of tweets. Also wrote a code to screen and parse relevant data pertaining to commodities and filter and collect corresponding GPS locations for the location of commodities. In order to use Google Maps, it was also required to open a Developers account in Google Clouds and generate an API key. Gmaps Python library was used to map the location and relevant information on Google Maps and finally Javascript was used to open the Google Maps with commodities of interest online so anyone interested can look it up with the link. Overall the project showcased the feasibility of a proof-of-concept prototype of an emergency mapping API.
+
+
+## Future Work
+
+When we started this project, we were hoping to see a commodity availability map of Austin, Texas. It did not take a long time to realize that goal was going to be difficult to achieve. The main reason was due to the scarcity of relevant tweets. The free tier API key from Twitter only allows you to download a limited number of tweets and only 7 prior days from the time of download. Knowing that only 3% of the tweets had GPS location attached to them, we would have needed tens of thousands of tweets to get enough data to generate a local commodity map. If this project had a budget behind it, I believe the data availability problem should have been easily overcome. However, with a more urgent emergency such as wildfire or hurricanes, I can envision having many more tweets being generated at a short amount of time in a relatively smaller geographical region. In such cases, I believe it would serve its purpose even with the limited API key from twitter.
+
+The fact that a human had to go through the tweets and read the texts to filter out the essential ones also needs improvements. With more time and manpower, it would be possible to write a Natural Language Processing code to parse through the tweets and select the ones that were relevant to the commodities in stock. With a more urgent emergency, this would be essential to the success of the emergency mapping functionality for fast turnaround time. 
+
+
+For more in depth knowledge on our process check this [document](Presentation_Files/Executive_Summary_COVID.pdf)
 ![](imgs/map-commodity.png)
