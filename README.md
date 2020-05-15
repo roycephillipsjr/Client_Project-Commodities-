@@ -39,7 +39,7 @@ Looking through this notebook you can see all the information you need to find o
 
 ## Data:
 - [Original Tweets](datasets/all_commodities_tweets.csv)
-- [Origian Tweets with Cleaned Tweets](datasets/cleaned_tweets.csv)
+- [Original Tweets with Cleaned Tweets](datasets/cleaned_tweets.csv)
 - [Tweets GPS](datasets/tweets_gps.csv)
 
 
