@@ -68,6 +68,9 @@ Feature|    Type|    Dataset|Data Retrieved From|Description|
 **source**|object|cleaned_tweets|Twitter API|the source where tweet came from|
 **clean_tweets**|object|cleaned_tweets|Twitter API|cleaned tweets, removed characters|
 
+## Available Commodoties Mapped
+![](imgs/map-commodity.png)
+
 ## Summary
 
 In the past few years, there have been several emergencies in the United States, such as massive hurricanes, wildfires and COVID-19 pandemic. In those situations, critical resources can make a real difference in one's life and also the location of those resources. We have used twitter as the main information gathering tool to locate available commodities during CVOID-19 pandemic and Google Map as the main delivery platform to share the information. We successfully opened a Twitter Developers account and generated an API key to download and collect thousands of tweets. Also wrote a code to screen and parse relevant data pertaining to commodities and filter and collect corresponding GPS locations for the location of commodities. In order to use Google Maps, it was also required to open a Developers account in Google Clouds and generate an API key. Gmaps Python library was used to map the location and relevant information on Google Maps and finally Javascript was used to open the Google Maps with commodities of interest online so anyone interested can look it up with the link. Overall the project showcased the feasibility of a proof-of-concept prototype of an emergency mapping API.
@@ -82,4 +85,3 @@ The fact that a human had to go through the tweets and read the texts to filter 
 
 For more in depth knowledge on our process check this [document](Presentation_Files/Executive_Summary_COVID.pdf)
 <br>For the [powerpoint presentation](Presentation_Files/PPT_COVID19-Commodity-Map.pdf)
-![](imgs/map-commodity.png)
