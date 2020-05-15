@@ -50,8 +50,7 @@ Looking through this notebook you can see all the information you need to find o
 - [Google Maps API](https://developers.google.com/maps/documentation) - API used to pinpoint locations on a map
 
 
-
-
+##  Data Dictionary
 Feature|    Type|    Dataset|Data Retrieved From|Description|
 -------|--------|-----------|-------------------|-----------|
 **tweets**|object|cleaned_tweets|Twitter API|text of the tweet|
