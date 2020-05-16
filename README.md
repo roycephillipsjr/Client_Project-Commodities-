@@ -37,6 +37,7 @@ Looking through this notebook you can see all the information you need to find o
 4. [Preprocessing and Modeling](Code/03_Preprocessing_Modeling.ipynb)
 5. [All Commodities](Code/04_All_commodities.ipynb)
 6. [GMAP Location](Code/05_gmap-location.ipynb)
+7. [Tweet Map Submission 'html'](Code/tweet-map-submission.html)
 
 
 ## Data:
